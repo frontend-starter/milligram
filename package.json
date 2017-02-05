@@ -1,0 +1,43 @@
+
+{
+  "name": "frontend-starter",
+  "version": "0.0.1",
+  "description": "A boilerplate including css framework and assets preprocessing",
+  "homepage": "https://frontend-starter.github.io",
+  "repository": "bastosh/frontend-starter",
+  "license": "MIT",
+  "author": "Sébastien Pereda <sebastien.pereda@gmail.com>",
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "browser-sync": "^2.18.2",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-bower-normalize": "latest",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-cssnano": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "~2.4.0",
+    "gulp-load-plugins": "latest",
+    "gulp-main-bower-files": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "~1.0.1",
+    "gulp-pug": "latest",
+    "gulp-rename": "latest",
+    "gulp-stylus": "latest",
+    "gulp-uglify": "~1.5.1",
+    "gulp-useref": "^3.1.2",
+    "nib": "latest",
+    "run-sequence": "latest",
+    "rupture": "latest",
+    "typographic": "latest"
+  },
+  "scripts":{
+    "start": "npm i && bower i && gulp serve"
+  }
+}

@@ -1,0 +1,115 @@
+extends base
+block content
+  main.wrapper
+    header.container#home
+      a(href="http://milligram.github.io" title="Milligram | A minimalist CSS framework." target="_blank")
+        img(class="thumbnail" src="img/thumbnail.png" alt="Milligram | A minimalist CSS framework.")
+    .container
+      section#examples
+        h2 Let's build something awsome!
+        p The project is set up with Gulp, Milligram, Pug, Stylus and CoffeeScript.
+      hr
+      section#typography
+        p The base type is 1.6rem (16px) over 1.6 line height (24px)
+        a Anchor
+        br
+        em Emphasis
+        br
+        small Small
+        br
+        strong Strong
+        br
+        u Underline
+        br
+        br
+        h1 Heading
+        br
+        h2 Heading
+        br
+        h3 Heading
+        br
+        h4 Heading
+        br
+        h5 Heading
+        br
+        h6 Heading
+      br
+      hr
+      section#blockquotes
+        blockquote
+          p
+            em Yeah!! Milligram is amazing.
+      br
+      hr
+      section#buttons
+        a(class="button" href="#") Default Button
+        button.button.button-outine Outlined Button
+        input(class="button button-clear" type="submit" value="Clear Button")
+      br
+      hr
+      section#lists
+        ul
+          li Unordered list item 1
+          li Unordered list item 2
+        ol
+          li Ordered list item 1
+          li Ordered list item 2
+        dl
+          dt Description list item 1
+          dd Description list item 1.1
+      br
+      hr
+      section#forms
+        form
+          fieldset
+            label(for="namefield") Name
+            input(type="text" placeholder="Bastoche" id="nameField")
+            label(for="ageRangeField") Age Range
+            select#ageRangeField
+              option(value="0-13") 0-13
+              option(value="14-17") 14-17
+              option(value="18-24") 18-24
+              option(value="24+") 24+
+            label(for="commentField") Comment
+            textarea(placeholder="Hi Bastoche…" id="commentField")
+            .float-right
+              input(type="checkbox" id="confirmField")
+              label(class="label-inline" for="confirmField") Send a copy to yourself
+            input(class="button-primary" type="submit" value="Send")
+      br
+      hr
+      section#tables
+        table
+          thead
+            tr
+              th Name
+              th Age
+              th Height
+              th Location
+          tbody
+            tr
+              td John
+              td 37
+              td 1,75
+              td Earth
+            tr
+              td Doe
+              td 27
+              td 1,80
+              td Earth
+      br
+      hr
+      section#grids
+        .row
+          .column .column
+          .column .column
+          .column .column
+          .column .column
+        br
+        .row
+          .column .column
+          .column.column-50.column-offset-25 .column column-50 column-offset-25
+
+
+
+
