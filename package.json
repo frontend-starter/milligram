@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "A boilerplate including css framework and assets preprocessing",
   "homepage": "https://frontend-starter.github.io",
-  "repository": "bastosh/frontend-starter",
+  "repository": "https://github.com/frontend-starter/milligram",
   "license": "MIT",
   "author": "Sébastien Pereda <sebastien.pereda@gmail.com>",
   "engines": {
